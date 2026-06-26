@@ -1,0 +1,46 @@
+name: Feature request / Solicitud de funcion / 功能请求
+description: Suggest a focused improvement for ArcaVida. / Sugiere una mejora enfocada para ArcaVida. / 建议一个聚焦的改进。
+title: "[Feature/功能]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe field needs without sharing private data from affected people.
+        Describe necesidades de campo sin compartir datos privados de personas afectadas.
+        请描述现场或协调用途，不要分享受影响人员的私人数据。
+  - type: textarea
+    id: need
+    attributes:
+      label: Community or workflow need / Necesidad comunitaria o de flujo / 社区或流程需求
+      description: What user need should this address? / Que necesidad de usuario debe resolver? / 这个功能要解决什么用户需求？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / Comportamiento propuesto / 建议行为
+      description: What should ArcaVida do differently? / Que deberia hacer ArcaVida de forma diferente? / 你希望 ArcaVida 如何改变？
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Area / 领域
+      options:
+        - Web workstation / Estacion web / Web 工作台
+        - Extraction / Extraccion / 信息提取
+        - Translation / Traduccion / 翻译
+        - Briefing / Informe / 简报
+        - Telegram adapter / Adaptador Telegram / Telegram 适配器
+        - Deployment / Despliegue / 部署
+        - Documentation / Documentacion / 文档
+        - Privacy or safety / Privacidad o seguridad / 隐私或安全
+        - Other / Otro / 其他
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and safeguards / Riesgos y salvaguardas / 风险与防护
+      description: What could go wrong, and what guardrails should be included? / Que podria salir mal y que salvaguardas deberian incluirse? / 可能出现什么问题？需要哪些防护？

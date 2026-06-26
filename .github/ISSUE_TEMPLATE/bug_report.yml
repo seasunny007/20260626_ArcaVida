@@ -1,0 +1,46 @@
+name: Bug report / Reporte de error / 缺陷报告
+description: Report a reproducible problem in ArcaVida. / Reporta un problema reproducible en ArcaVida. / 报告可复现的问题。
+title: "[Bug/缺陷]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include real credentials, private messages, exact personal locations, phone numbers, or other sensitive data.
+        No incluyas credenciales reales, mensajes privados, ubicaciones personales exactas, telefonos ni otros datos sensibles.
+        不要包含真实凭证、私密消息、精确个人位置、电话号码或其他敏感数据。
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / Resumen / 摘要
+      description: What happened, and what did you expect instead? / Que ocurrio y que esperabas? / 发生了什么？你原本预期是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps / Pasos de reproduccion / 复现步骤
+      description: Use synthetic or anonymized sample input only. / Usa solo entradas sinteticas o anonimizadas. / 只使用合成或匿名化样例输入。
+      placeholder: |
+        1. Start the web workstation with ... / Inicia la estacion web con ... / 使用 ... 启动 Web 工作台
+        2. Paste this anonymized sample ... / Pega este ejemplo anonimizado ... / 粘贴此匿名化样例 ...
+        3. Click ... / Haz clic en ... / 点击 ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / Entorno / 环境
+      placeholder: macOS 15, Python 3.11, local web workstation, SQLite
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks performed / Comprobaciones realizadas / 已执行检查
+      placeholder: python -m pytest -q; npm run repo:preflight
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety or privacy impact / Impacto de seguridad o privacidad / 安全或隐私影响
+      description: Note whether the issue could affect personal data, credentials, verification, escalation, dispatch, or field action. / Indica si el problema podria afectar datos personales, credenciales, verificacion, escalamiento, despacho o accion en campo. / 说明问题是否可能影响个人数据、凭证、核实、升级、派遣或现场行动。

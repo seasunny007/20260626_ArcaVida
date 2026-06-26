@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=./docs/schemas/compose-spec.local.json
+# 编辑器 schema 校验 / Editor schema validation.
+services:
+  arcavida:
+    build:
+      context: .
+      args:
+        PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.tuna.tsinghua.edu.cn/simple}
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: sqlite:///./data/arca_vida.db
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

@@ -1,0 +1,12 @@
+{
+  "name": "arcavida-workspace",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ArcaVida release workspace and maintainer tooling.",
+  "scripts": {
+    "workspace:external-cache": "node scripts/external-workspace-cache.js",
+    "workspace:external-cache:link": "node scripts/external-workspace-cache.js --no-install",
+    "workspace:external-cache:clean": "node scripts/external-workspace-cache.js --clean-cache",
+    "repo:preflight": "node scripts/repo-preflight.js"
+  }
+}

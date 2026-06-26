@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local Compose Schema",
+  "type": "object",
+  "required": ["services"],
+  "properties": {
+    "name": {"type": "string"},
+    "services": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "build": {"type": ["string", "object"]},
+          "env_file": {
+            "type": "array",
+            "items": {"type": ["string", "object"]}
+          },
+          "environment": {"type": ["object", "array"]},
+          "ports": {"type": "array"},
+          "volumes": {"type": "array"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "networks": {"type": "object"},
+    "volumes": {"type": "object"}
+  },
+  "additionalProperties": true
+}
