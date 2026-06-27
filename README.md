@@ -1,10 +1,22 @@
 # ArcaVida（轻舟）
 
-本文档提供中文、西班牙语和英文说明；如三种文本存在不一致，以中文文本为准。
+**本文档提供中文、西班牙语和英文说明；如三种文本存在不一致，以中文文本为准。**
 
-Este documento ofrece informacion en chino, espanol e ingles. Si existe alguna inconsistencia entre los tres textos, prevalecera el texto chino.
+**Este documento ofrece informacion en chino, espanol e ingles. Si existe alguna inconsistencia entre los tres textos, prevalecera el texto chino.**
 
-This document provides Chinese, Spanish, and English information. If there is any inconsistency among the three texts, the Chinese text controls.
+**This document provides Chinese, Spanish, and English information. If there is any inconsistency among the three texts, the Chinese text controls.**
+
+**一句话简介：惊悉委内瑞拉发生强烈地震，26日晚间紧急开发了 ArcaVida（轻舟）系统：从社交媒体多语种碎片化求助信息中，梳理出救援线索，为精准高效救援提供参考。**
+
+**欢迎有相关领域知识经验的朋友加入开发维护工作。**
+
+**Resumen en una frase: tras conocer la noticia del fuerte terremoto en Venezuela, ArcaVida（轻舟）se desarrollo de emergencia la noche del dia 26 para organizar pistas de rescate a partir de informacion multilingue y fragmentada de solicitud de ayuda en redes sociales, aportando referencias para una respuesta mas precisa y eficiente.**
+
+**Damos la bienvenida a personas con conocimientos o experiencia en campos relacionados para sumarse al desarrollo y mantenimiento.**
+
+**One-sentence summary: after learning of the strong earthquake in Venezuela, ArcaVida（轻舟）was urgently developed on the evening of the 26th to organize rescue leads from multilingual, fragmented help-request information on social media, providing references for more precise and efficient rescue response.**
+
+**Friends with relevant domain knowledge or experience are welcome to join the development and maintenance work.**
 
 ArcaVida（轻舟）是面向中文救援协调小组的社区预览版信息分拣工作台。它用于协调小组收到西语、中文或英文现场文本之后的桌面复核流程：翻译辅助、结构化提取、人工复核、状态跟踪、备注和中文简报草稿。
 
