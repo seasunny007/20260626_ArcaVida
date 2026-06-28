@@ -19,6 +19,9 @@ v2.0.0 is the public release of the ArcaVida community preview. It is intended f
 - 默认本地 Web 工作台；`bot/` 中的 Telegram 适配器仅作为旧版可选入口保留。
 - La estacion web local es la entrada predeterminada; el adaptador de Telegram en `bot/` se conserva solo como entrada heredada opcional.
 - The local web workstation is the default entry point; the Telegram adapter in `bot/` remains only as an optional legacy path.
+- 公开物资管理模块设计，覆盖安置点/发放点的物资需求、库存、送达记录、缺货指数和地图图层规划。
+- Publica el diseno del modulo de gestion de materiales, cubriendo necesidades, inventario, registros de entrega, indice de escasez y capas de mapa para puntos de alojamiento o distribucion.
+- Publishes the material management module design, covering needs, inventory, delivery records, shortage index, and map-layer planning for shelter or distribution points.
 
 ## 非目标 / No objetivos / Non-Goals
 
@@ -28,6 +31,9 @@ v2.0.0 is the public release of the ArcaVida community preview. It is intended f
 - 不是现场救援系统、自动核实系统、资源调度平台或应急派遣权威。
 - No es un sistema de rescate en campo, sistema de verificacion automatica, plataforma de asignacion de recursos ni autoridad de despacho de emergencias.
 - It is not a field rescue system, automatic verification system, resource-dispatch platform, or emergency-dispatch authority.
+- 物资管理模块是设计和评审材料，不提供自动派送、路线选择或自动分配指令。
+- El modulo de gestion de materiales es material de diseno y revision; no proporciona envio automatico, seleccion de rutas ni instrucciones automaticas de asignacion.
+- The material management module is design and review material; it does not provide automatic delivery, route selection, or automatic allocation instructions.
 - 不承诺救援结果、覆盖地区、可用性、响应时间或事实核实能力。
 - No promete resultados de rescate, cobertura geografica, disponibilidad, tiempos de respuesta ni capacidad de verificacion de hechos.
 - It does not promise rescue outcomes, geographic coverage, availability, response times, or fact verification.
@@ -58,6 +64,9 @@ v2.0.0 is the public release of the ArcaVida community preview. It is intended f
 - 委内瑞拉部署：参考 `docs/deployment-venezuela.md`，优先考虑低带宽、本地/区域 VPS、访问控制和数据保护。
 - Despliegue en Venezuela: consulta `docs/deployment-venezuela.md`, priorizando bajo ancho de banda, VPS local/regional, control de acceso y proteccion de datos.
 - Venezuela deployment: see `docs/deployment-venezuela.md`, prioritizing low bandwidth, local/regional VPS, access control, and data protection.
+- 物资管理设计：参考 `docs/material-distribution-tracking.md`，用于后续实现评审。
+- Diseno de gestion de materiales: consulta `docs/material-distribution-tracking.md` para revision de implementacion posterior.
+- Material management design: see `docs/material-distribution-tracking.md` for later implementation review.
 
 ## 验证结果 / Validacion / Validation
 
