@@ -8,11 +8,11 @@ This document provides Chinese, Spanish, and English information. If there is an
 
 ## 发布目标 / Objetivo de publicacion / Release Goal
 
-首版发布目标是提供一个简洁、可靠、可用、可扩展的社区预览版本，不追求功能完美。
+v2.0.0 发布目标是提供一个简洁、可靠、可用、可扩展的社区预览版公开发布物，不追求功能完美。Public Release 表示可公开审阅和本地试运行，不表示可直接用于现场救援、自动核实、资源调度或应急派遣。
 
-El objetivo de la primera publicacion es ofrecer una vista previa comunitaria simple, fiable, usable y extensible, sin perseguir perfeccion funcional.
+El objetivo de v2.0.0 es ofrecer una publicacion publica de vista previa comunitaria simple, fiable, usable y extensible, sin perseguir perfeccion funcional. Public Release significa que puede revisarse publicamente y probarse localmente; no significa uso directo para rescate en campo, verificacion automatica, asignacion de recursos ni despacho de emergencias.
 
-The first release aims to provide a simple, reliable, usable, and extensible community-preview version, without aiming for feature perfection.
+v2.0.0 aims to provide a simple, reliable, usable, and extensible public release of the community preview, without aiming for feature perfection. Public Release means it is ready for public review and local trial use; it does not mean direct use for field rescue, automatic verification, resource allocation, or emergency dispatch.
 
 ## 必须通过 / Obligatorio / Required
 

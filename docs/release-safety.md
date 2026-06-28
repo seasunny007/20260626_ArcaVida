@@ -12,6 +12,12 @@ Esta nota esta dirigida a mantenedores y publicadores. Reduce riesgos de privaci
 
 This note is for maintainers and publishers. It reduces privacy, safety, compliance, and misuse risks during community-preview releases.
 
+v2.0.0 的 Public Release 是社区预览版的公开发布，目标是接受公开审阅和支持本地试运行。它不是生产级救援系统、自动核实系统、资源调度系统或应急派遣权威。
+
+El Public Release v2.0.0 es la publicacion publica de la vista previa comunitaria, destinada a revision publica y pruebas locales. No es un sistema de rescate de produccion, sistema de verificacion automatica, sistema de asignacion de recursos ni autoridad de despacho de emergencias.
+
+The v2.0.0 Public Release is the public release of the community preview, intended for public review and local trial use. It is not a production rescue system, automatic verification system, resource-allocation system, or emergency-dispatch authority.
+
 ## 数据边界 / Limite de datos / Data Boundary
 
 发布版不包含面向真实求助数据的数据收集、真实个案样本库或公开导出功能。公开演示、Issue、PR 和社区讨论只应使用合成、公开或充分匿名化样例。

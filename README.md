@@ -11,6 +11,12 @@
 
 **This document provides Chinese, Spanish, and English information. If there is any inconsistency among the three texts, the Chinese text controls.**
 
+**发布叙事：v2.0.0 是 ArcaVida 社区预览版的公开 GitHub Release。Public Release 表示代码、文档、部署路径和安全边界已经整理到可公开审阅和本地试运行的状态；不表示系统可直接用于现场救援、自动核实、资源调度或应急派遣。**
+
+**Narrativa de publicacion: v2.0.0 es la publicacion publica en GitHub de la vista previa comunitaria de ArcaVida. Public Release significa que el codigo, la documentacion, las rutas de despliegue y los limites de seguridad estan listos para revision publica y pruebas locales; no significa que el sistema pueda usarse directamente para rescate en campo, verificacion automatica, asignacion de recursos ni despacho de emergencias.**
+
+**Release narrative: v2.0.0 is the public GitHub Release of the ArcaVida community preview. Public Release means the code, documentation, deployment paths, and safety boundaries are ready for public review and local trial use; it does not mean the system can be used directly for field rescue, automatic verification, resource dispatch, or emergency dispatch.**
+
 **一句话简介：惊悉委内瑞拉发生强烈地震，26日晚间紧急开发了 ArcaVida（轻舟）系统：从社交媒体多语种碎片化求助信息中，梳理线索，为精准高效救援提供参考。**
 
 **欢迎有相关领域知识经验的人士加入开发维护工作。**
@@ -23,11 +29,11 @@
 
 **People with relevant domain knowledge or experience are welcome to join the development and maintenance work.**
 
-ArcaVida（轻舟）是面向中文救援协调小组的社区预览版信息分拣工作台。它用于协调小组收到西语、中文或英文现场文本之后的桌面复核流程：翻译辅助、结构化提取、人工复核、状态跟踪、备注和中文简报草稿。
+ArcaVida（轻舟）是面向中文救援协调小组的公开社区预览版信息分拣工作台。它用于协调小组收到西语、中文或英文现场文本之后的桌面复核流程：翻译辅助、结构化提取、人工复核、状态跟踪、备注和中文简报草稿。
 
 ArcaVida es una estacion de trabajo de triaje en vista previa comunitaria para equipos de coordinacion de ayuda que trabajan en chino. Apoya la revision de escritorio despues de recibir mensajes de campo en espanol, chino o ingles: ayuda de traduccion, extraccion estructurada, revision humana, seguimiento de estado, notas y borradores de informes en chino.
 
-ArcaVida is a community-preview triage workstation for Chinese-language relief coordination teams. It supports desk-side review after a team receives Spanish, Chinese, or English field messages: translation assistance, structured extraction, human review, status tracking, notes, and Chinese briefing drafts.
+ArcaVida is a public community-preview triage workstation for Chinese-language relief coordination teams. It supports desk-side review after a team receives Spanish, Chinese, or English field messages: translation assistance, structured extraction, human review, status tracking, notes, and Chinese briefing drafts.
 
 第一次阅读请先看：[一页使用说明 / One-page Usage Guide](docs/usage-quick-guide.md)。它用最短篇幅说明适用场景、不能做什么、安全使用原则和本地试运行步骤。
 
@@ -41,11 +47,11 @@ First-time readers should start with [一页使用说明 / One-page Usage Guide]
 
 ArcaVida focuses on multilingual relief-message triage for Chinese-language coordination teams. It helps turn multilingual messages into reviewable records and briefing drafts. It is not a public help-request portal, field rescue system, resource-dispatch platform, or emergency-dispatch authority.
 
-**状态 / Status:** 早期原型 / 社区预览版。未经人工复核，不得将 ArcaVida 输出用于核实、升级、派遣或现场行动。
+**状态 / Status:** v2.0.0 是公开发布的社区预览版，适合本地试运行、架构审阅、合成样例测试和协调流程评估。未经人工复核，不得将 ArcaVida 输出用于核实、升级、派遣或现场行动。
 
-**Estado:** prototipo temprano / vista previa comunitaria. Sin revision humana, los resultados de ArcaVida no deben usarse para verificacion, escalamiento, despacho ni accion en campo.
+**Estado:** v2.0.0 es una vista previa comunitaria publicada publicamente, adecuada para pruebas locales, revision de arquitectura, ejemplos sinteticos y evaluacion de flujos de coordinacion. Sin revision humana, los resultados de ArcaVida no deben usarse para verificacion, escalamiento, despacho ni accion en campo.
 
-Early prototype / community preview. ArcaVida must not be used for verification, escalation, dispatch, or field action without human review.
+v2.0.0 is a publicly released community preview suitable for local trials, architecture review, synthetic-sample testing, and coordination-workflow evaluation. ArcaVida must not be used for verification, escalation, dispatch, or field action without human review.
 
 ## 能力边界 / What It Does
 
