@@ -162,14 +162,14 @@ Web 表单是默认入口；Bot 命令只作为可选适配器，适合已有受
    - 当前紧急需求数量。
    - 物资缺口排名。
 
-## 三、开发计划
+## 三、开发顺序
 
-| 天数  | 任务                             | 产出                                                           |
-| ----- | -------------------------------- | -------------------------------------------------------------- |
-| Day 1 | 新增数据模型，扩展数据库         | `distribution_points`、`material_needs`、`delivery_records` 表 |
-| Day 2 | 实现需求上报、库存更新和缺货指数 | `core/material_manager.py`、`core/shortage_index.py`           |
-| Day 3 | 实现 Web 表单和可选 Bot 命令     | `/need`、`/deliver`、`/status`、`/shortage`，以及 Web API      |
-| Day 4 | 地图图层升级和测试               | 物资图层、颜色区分、详情弹窗、排序统计                         |
+| 顺序 | 任务                             | 产出                                                           |
+| ---- | -------------------------------- | -------------------------------------------------------------- |
+| 1    | 新增数据模型，扩展数据库         | `distribution_points`、`material_needs`、`delivery_records` 表 |
+| 2    | 实现需求上报、库存更新和缺货指数 | `core/material_manager.py`、`core/shortage_index.py`           |
+| 3    | 实现 Web 表单和可选 Bot 命令     | `/need`、`/deliver`、`/status`、`/shortage`，以及 Web API      |
+| 4    | 地图图层升级和测试               | 物资图层、颜色区分、详情弹窗、排序统计                         |
 
 ## 四、使用场景（合成示例）
 
