@@ -11,11 +11,11 @@
 
 **This document provides Chinese, Spanish, and English information. If there is any inconsistency among the three texts, the Chinese text controls.**
 
-**发布叙事：v2.0.0 是 ArcaVida 社区预览版的公开 GitHub Release。Public Release 表示代码、文档、部署路径和安全边界已经整理到可公开审阅和本地试运行的状态；不表示系统可直接用于现场救援、自动核实、资源调度或应急派遣。**
+**v2.0.0 是 ArcaVida 社区预览版的公开发布。它面向公开审阅和本地试运行；不用于现场救援、自动核实、资源调度或应急派遣。**
 
-**Narrativa de publicacion: v2.0.0 es la publicacion publica en GitHub de la vista previa comunitaria de ArcaVida. Public Release significa que el codigo, la documentacion, las rutas de despliegue y los limites de seguridad estan listos para revision publica y pruebas locales; no significa que el sistema pueda usarse directamente para rescate en campo, verificacion automatica, asignacion de recursos ni despacho de emergencias.**
+**v2.0.0 es la publicacion publica de la vista previa comunitaria de ArcaVida. Esta dirigida a revision publica y pruebas locales; no se usa para rescate en campo, verificacion automatica, asignacion de recursos ni despacho de emergencias.**
 
-**Release narrative: v2.0.0 is the public GitHub Release of the ArcaVida community preview. Public Release means the code, documentation, deployment paths, and safety boundaries are ready for public review and local trial use; it does not mean the system can be used directly for field rescue, automatic verification, resource dispatch, or emergency dispatch.**
+**v2.0.0 is the public release of the ArcaVida community preview. It is intended for public review and local trial use; it is not for field rescue, automatic verification, resource dispatch, or emergency dispatch.**
 
 **一句话简介：惊悉委内瑞拉发生强烈地震，26日晚间紧急开发了 ArcaVida（轻舟）系统：从社交媒体多语种碎片化求助信息中，梳理线索，为精准高效救援提供参考。**
 

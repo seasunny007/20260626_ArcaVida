@@ -2,11 +2,11 @@
 
 ## 发布定位 / Posicionamiento / Positioning
 
-v2.0.0 是 ArcaVida（轻舟）社区预览版的公开 GitHub Release。它把代码、文档、部署路径和安全边界整理到可公开审阅和本地试运行的状态。
+v2.0.0 是 ArcaVida（轻舟）社区预览版的公开发布。它面向公开审阅和本地试运行；不用于现场救援、自动核实、资源调度或应急派遣。
 
-v2.0.0 es la publicacion publica en GitHub de la vista previa comunitaria de ArcaVida（轻舟）. Organiza el codigo, la documentacion, las rutas de despliegue y los limites de seguridad para revision publica y pruebas locales.
+v2.0.0 es la publicacion publica de la vista previa comunitaria de ArcaVida（轻舟）. Esta dirigida a revision publica y pruebas locales; no se usa para rescate en campo, verificacion automatica, asignacion de recursos ni despacho de emergencias.
 
-v2.0.0 is the public GitHub Release of the ArcaVida community preview. It packages the code, documentation, deployment paths, and safety boundaries for public review and local trial use.
+v2.0.0 is the public release of the ArcaVida community preview. It is intended for public review and local trial use; it is not for field rescue, automatic verification, resource dispatch, or emergency dispatch.
 
 ## 能力范围 / Alcance / Scope
 
