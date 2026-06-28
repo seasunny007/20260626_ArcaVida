@@ -202,6 +202,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening issues or pull requests.
 - [一页使用说明 / One-page Usage Guide](docs/usage-quick-guide.md)
 - [ArcaVida VS Code 开发计划 / VS Code Development Plan](docs/arcavida-development-plan.md)
 - [中国大陆部署指南 / Mainland China Deployment Guide](docs/deployment-cn.md)
+- [委内瑞拉部署指南 / Venezuela Deployment Guide](docs/deployment-venezuela.md)
 - [真实凭证联调清单 / Live Credential Integration Checklist](docs/live-credential-integration.md)
 - [发布安全说明 / Release Safety Notes](docs/release-safety.md)
 - [发布检查清单 / Release Checklist](docs/release-checklist.md)
