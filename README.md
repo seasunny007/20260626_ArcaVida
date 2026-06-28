@@ -1,4 +1,8 @@
-<h1>ArcaVida（轻舟）：地震救援碎片化信息支持系统<br><small>v0.2.0-alpha · Sistema de apoyo para rescate ante terremotos · Earthquake Relief Information Support</small></h1>
+<div align="center">
+<h1>ArcaVida（轻舟）</h1>
+<p><strong>地震救援碎片化信息支持系统</strong></p>
+<p><small>v2.0.0 · Sistema de apoyo para rescate ante terremotos · Earthquake Relief Information Support</small></p>
+</div>
 
 **本文档提供中文、西班牙语和英文说明；如三种文本存在不一致，以中文文本为准。**
 

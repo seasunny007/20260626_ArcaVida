@@ -42,7 +42,7 @@ La pagina publica de Release puede generarse automaticamente, pero este proyecto
 The public Release page can be generated automatically, but this project defaults to automatic commands with human-reviewed notes. Content should come only from the current release scope, validation results, and safety boundaries; it should not automatically summarize commits outside the current public scope.
 
 ```bash
-gh release create v0.2.0-alpha --target main --prerelease --title "v0.2.0-alpha - First Public Alpha" --notes-file release-notes.md
+gh release create v2.0.0 --target main --title "v2.0.0 - Public Release" --notes-file release-notes.md
 ```
 
 GitHub 的 `--generate-notes` 可用于历史已清理、提交信息适合公开展示的后续版本；敏感场景首版不建议直接使用。
