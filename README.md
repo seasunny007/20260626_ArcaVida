@@ -1,4 +1,4 @@
-# ArcaVida（轻舟）：地震救援碎片化信息支持系统 / Sistema de apoyo para informacion fragmentada de rescate ante terremotos / Fragmented Earthquake Relief Information Support System
+# ArcaVida（轻舟）：地震救援碎片化信息支持系统<br>Sistema de apoyo para informacion fragmentada de rescate ante terremotos<br>Fragmented Earthquake Relief Information Support System
 
 **本文档提供中文、西班牙语和英文说明；如三种文本存在不一致，以中文文本为准。**
 
