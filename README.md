@@ -31,15 +31,15 @@
 
 ArcaVida（轻舟）是面向中文救援协调小组的公开社区预览版信息分拣工作台。它用于协调小组收到西语、中文或英文现场文本之后的桌面复核流程：翻译辅助、结构化提取、人工复核、状态跟踪、备注和中文简报草稿。
 
-v2.0.0 同时公开物资管理模块设计：围绕安置点/发放点的物资需求、库存、送达记录和缺货指数，提供后续实现蓝图。该模块当前作为设计和评审材料，不代表系统已经具备自动派送或资源调度能力。
+v2.0.0 同时提供本地物资管理内测模块：围绕安置点/发放点的物资需求、库存、送达记录、缺货指数、地图看板、脱敏导出和审计日志提供受控工作流。该模块只提供信息整理和分配参考，不代表系统具备自动派送或资源调度权威。
 
 ArcaVida es una estacion de trabajo de triaje en vista previa comunitaria para equipos de coordinacion de ayuda que trabajan en chino. Apoya la revision de escritorio despues de recibir mensajes de campo en espanol, chino o ingles: ayuda de traduccion, extraccion estructurada, revision humana, seguimiento de estado, notas y borradores de informes en chino.
 
-v2.0.0 tambien publica el diseno del modulo de gestion de materiales: necesidades, inventario, registros de entrega e indice de escasez para puntos de alojamiento o distribucion. El modulo es material de diseno y revision; no significa envio automatico ni asignacion automatica de recursos.
+v2.0.0 tambien ofrece un modulo local de gestion de materiales en prueba controlada: necesidades, inventario, registros de entrega, indice de escasez, mapa, exportacion anonimizada y registro de auditoria para puntos de alojamiento o distribucion. El modulo solo organiza informacion y referencias de asignacion; no significa envio automatico ni autoridad de asignacion de recursos.
 
 ArcaVida is a public community-preview triage workstation for Chinese-language relief coordination teams. It supports desk-side review after a team receives Spanish, Chinese, or English field messages: translation assistance, structured extraction, human review, status tracking, notes, and Chinese briefing drafts.
 
-v2.0.0 also publishes the material management module design: needs, inventory, delivery records, and shortage-index support for shelter or distribution points. This module is design and review material; it does not mean automatic delivery or automatic resource dispatch is available.
+v2.0.0 also provides a local controlled-trial material management module: needs, inventory, delivery records, shortage indexing, map board, sanitized export, and audit logs for shelter or distribution points. This module provides information organization and allocation reference only; it does not mean automatic delivery or resource-dispatch authority is available.
 
 第一次阅读请先看：[一页使用说明 / One-page Usage Guide](docs/usage-quick-guide.md)。它用最短篇幅说明适用场景、不能做什么、安全使用原则和本地试运行步骤。
 
@@ -76,20 +76,20 @@ v2.0.0 is a publicly released community preview suitable for local trials, archi
 - 为协调和后勤复核生成中文简报草稿。
 - Genera borradores de informes en chino para revision de coordinacion y logistica.
 - Drafts Chinese briefings for coordinator and logistics review.
-- 公开物资管理模块设计，覆盖物资需求、库存、送达记录、缺货指数和地图图层规划。
-- Publica el diseno del modulo de gestion de materiales, cubriendo necesidades, inventario, registros de entrega, indice de escasez y capas de mapa planificadas.
-- Publishes the material management module design, covering needs, inventory, delivery records, shortage index, and planned map layers.
+- 提供本地物资管理、地图看板、脱敏导出和审计日志，覆盖物资需求、库存、送达记录和缺货指数。
+- Ofrece gestion local de materiales, mapa, exportacion anonimizada y auditoria, cubriendo necesidades, inventario, entregas e indice de escasez.
+- Provides local material management, map board, sanitized export, and audit logs, covering needs, inventory, deliveries, and shortage indexing.
 - `bot/` 中保留旧版 Telegram 适配器；本地 Web 工作台是默认入口。
 - Se conserva un adaptador heredado de Telegram en `bot/`; la estacion web local es la entrada predeterminada.
 - Keeps a legacy Telegram adapter in `bot/`; the local web workstation is the default entry point.
 
 ## 物资管理模块 / Gestion de Materiales / Material Management
 
-v2.0.0 包含 [物资发放追踪系统设计 / Material Distribution Tracking Design](docs/material-distribution-tracking.md)，用于规划安置点/发放点的物资需求上报、库存更新、送达记录、缺货指数和地图展示。该设计只提供信息整理和分配参考，实际派送、路线选择、优先级确认和现场行动必须由人工协调员决定。
+v2.0.0 包含 [物资发放追踪系统 / Material Distribution Tracking](docs/material-distribution-tracking.md)，用于本地记录安置点/发放点的物资需求上报、库存更新、送达记录、缺货指数、地图展示、脱敏导出和审计日志。该模块只提供信息整理和分配参考，实际派送、路线选择、优先级确认和现场行动必须由人工协调员决定。
 
-v2.0.0 incluye [物资发放追踪系统设计 / Material Distribution Tracking Design](docs/material-distribution-tracking.md), que planifica reporte de necesidades, actualizacion de inventario, registros de entrega, indice de escasez y visualizacion en mapa para puntos de alojamiento o distribucion. Este diseno solo ofrece organizacion de informacion y referencia de asignacion; el envio real, rutas, prioridad y accion en campo deben decidirlos coordinadores humanos.
+v2.0.0 incluye [物资发放追踪系统 / Material Distribution Tracking](docs/material-distribution-tracking.md), para registrar localmente necesidades, inventario, entregas, indice de escasez, mapa, exportacion anonimizada y auditoria para puntos de alojamiento o distribucion. El modulo solo ofrece organizacion de informacion y referencia de asignacion; el envio real, rutas, prioridad y accion en campo deben decidirlos coordinadores humanos.
 
-v2.0.0 includes [物资发放追踪系统设计 / Material Distribution Tracking Design](docs/material-distribution-tracking.md), which plans needs reporting, inventory updates, delivery records, shortage indexing, and map views for shelter or distribution points. This design provides information organization and allocation reference only; actual delivery, route choice, priority confirmation, and field action must be decided by human coordinators.
+v2.0.0 includes [物资发放追踪系统 / Material Distribution Tracking](docs/material-distribution-tracking.md), which locally records needs reporting, inventory updates, delivery records, shortage indexing, map views, sanitized export, and audit logs for shelter or distribution points. This module provides information organization and allocation reference only; actual delivery, route choice, priority confirmation, and field action must be decided by human coordinators.
 
 ## 安全与隐私 / Safety and Privacy
 

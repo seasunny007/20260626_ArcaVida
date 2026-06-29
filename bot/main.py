@@ -30,6 +30,9 @@ def build_application() -> Application:
     application.add_handler(CommandHandler("dispatch", handlers.dispatch))
     application.add_handler(CommandHandler("close", handlers.close))
     application.add_handler(CommandHandler("note", handlers.note))
+    application.add_handler(CommandHandler("need", handlers.need))
+    application.add_handler(CommandHandler("deliver", handlers.deliver))
+    application.add_handler(CommandHandler("shortage", handlers.shortage))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handlers.handle_text))
     return application
 
